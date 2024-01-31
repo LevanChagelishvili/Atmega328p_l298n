@@ -1,0 +1,58 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# STMicroelectronics L298N
+#
+DEF L298N U 0 40 Y Y 1 L N
+F0 "U" 0 200 50 H V L CNN 
+F1 "L298N" 0 300 50 H V L CNN 
+F2 "STMicroelectronics-L298N-*" 0 400 50 H I L CNN 
+F3 "https://upverter.com/datasheet/4e6acc8e34692b9176918ad45905b166727b88f4.pdf" 0 500 50 H I L CNN 
+F4 "IC" 0 600 50 H I L CNN "category"
+F5 "H-Bridges" 0 700 50 H I L CNN "category 1742da482592cc85"
+F6 "Uncategorized" 0 800 50 H I L CNN "category 20b3edb914a9fb74"
+F7 "Interface ICs" 0 900 50 H I L CNN "category 2fc5e2cf1b85f402"
+F8 "Power Management" 0 1000 50 H I L CNN "category 56439b4967f48d84"
+F9 "Uncategorized" 0 1100 50 H I L CNN "category 84f649fcb0ed5f31"
+F10 "Semiconductors and Actives" 0 1200 50 H I L CNN "category 9e07530daf1645c0"
+F11 "Solid State Switches" 0 1300 50 H I L CNN "category d2bc1fb6e06f097b"
+F12 "IC BRIDGE DRIVER PAR 15MULTIWATT" 0 1400 50 H I L CNN "digikey description"
+F13 "497-1395-5-ND" 0 1500 50 H I L CNN "digikey part number"
+F14 "yes" 0 1600 50 H I L CNN "lead free"
+F15 "6ac6aa1a30457043" 0 1700 50 H I L CNN "library id"
+F16 "STMicroelectronics" 0 1800 50 H I L CNN "manufacturer"
+F17 "Through Hole" 0 1900 50 H I L CNN "mounting type"
+F18 "511-L298" 0 2000 50 H I L CNN "mouser part number"
+F19 "13" 0 2100 50 H I L CNN "num pins"
+F20 "8e8a47878f08514d" 0 2200 50 H I L CNN "octopart part number"
+F21 "Multiwatt15 Vertical" 0 2300 50 H I L CNN "package"
+F22 "yes" 0 2400 50 H I L CNN "rohs"
+F23 "Standard" 0 2500 50 H I L CNN "symbol 0 0"
+F24 "+150°C" 0 2600 50 H I L CNN "temperature range high"
+F25 "-40°C" 0 2700 50 H I L CNN "temperature range low"
+F26 "integrated circuit" 0 2800 50 H I L CNN "type"
+F27 "" 0 2900 50 H I L CNN "voltage"
+F28 "46V" 0 3000 50 H I L CNN "max supply voltage dc"
+F29 "2A" 0 3100 50 H I L CNN "output current"
+F30 "46V" 0 3200 50 H I L CNN "output voltage"
+DRAW
+X CURRENT_SENSE_A 1 100 -200 100 R 40 40 1 1 U 
+X CURRENT_SENSE_B 15 100 -300 100 R 40 40 1 1 U 
+X OUTPUT_1 2 2700 -400 100 L 40 40 1 1 U 
+X OUTPUT_2 3 2700 -500 100 L 40 40 1 1 U 
+X OUTPUT_3 13 2700 -600 100 L 40 40 1 1 U 
+X OUTPUT_4 14 2700 -700 100 L 40 40 1 1 U 
+X INPUT_1 5 100 -800 100 R 40 40 1 1 U 
+X INPUT_2 7 100 -900 100 R 40 40 1 1 U 
+X INPUT_3 10 100 -1000 100 R 40 40 1 1 U 
+X INPUT_4 12 100 -1100 100 R 40 40 1 1 U 
+X SUPPLY_VOLTAGE_VS 4 100 0 100 R 40 40 1 1 U 
+X ENABLE_A 6 100 -500 100 R 40 40 1 1 U 
+X ENABLE_B 11 100 -600 100 R 40 40 1 1 U 
+X GND 8 2700 -1000 100 L 40 40 1 1 U 
+X LOGIC_SUPPLY_VOLTAGE_VSS 9 2700 -1100 100 L 40 40 1 1 U 
+S 200 100 2600 -1200 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
